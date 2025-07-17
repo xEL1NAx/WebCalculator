@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web-Taschenrechner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="calculator">
+    <h2>Einfacher Web-Taschenrechner</h2>
+    <input type="number" id="zahl1" placeholder="Zahl 1 eingeben" />
+    <input type="number" id="zahl2" placeholder="Zahl 2 eingeben" />
+    <div class="buttons">
+      <button onclick="rechnen('add')">+</button>
+      <button onclick="rechnen('sub')">−</button>
+      <button onclick="rechnen('mul')">×</button>
+      <button onclick="rechnen('div')">÷</button>
+    </div>
+    <div class="result" id="ergebnis">Ergebnis: </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
