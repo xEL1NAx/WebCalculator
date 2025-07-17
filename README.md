@@ -1,2 +1,2 @@
-# WebTaschenrechner
+# WebCalculator
 A simple WebCalculator
